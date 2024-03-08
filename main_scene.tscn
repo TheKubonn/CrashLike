@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://c12yknapme182"]
+
+[ext_resource type="Script" path="res://main_scene.gd" id="1_wnx14"]
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource("1_wnx14")
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 393.0
+offset_top = 185.0
+offset_right = 742.0
+offset_bottom = 386.0
+theme_override_colors/font_color = Color(0.498039, 0.980392, 0.498039, 1)
+theme_override_font_sizes/font_size = 48
+text = "Play
+"
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 391.0
+offset_top = 422.0
+offset_right = 740.0
+offset_bottom = 621.0
+theme_override_colors/font_color = Color(0.760784, 0, 0.0470588, 1)
+theme_override_font_sizes/font_size = 48
+text = "Quit"
+
+[node name="LabelText" type="Label" parent="."]
+offset_left = 116.0
+offset_top = 8.0
+offset_right = 1041.0
+offset_bottom = 179.0
+theme_override_colors/font_color = Color(0.929412, 0.360784, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 7
+theme_override_font_sizes/font_size = 100
+text = "CrashLike Game"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
