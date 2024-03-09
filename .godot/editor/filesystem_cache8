@@ -1,10 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1709938057
+::res://::1709941480
 export_presets.cfg::TextFile::-1::1709921140::0::1::::<><>::
 icon.svg::CompressedTexture2D::2189044990031053246::1709920782::1709920786::1::::<><>::
 main_scene.gd::GDScript::-1::1709922291::0::1::::<>Node2D<>::
-main_scene.tscn::PackedScene::6654965250601409829::1709923061::0::1::::<><>::res://main_scene.gd
-world.tscn::PackedScene::5390968615728294244::1709938057::0::1::::<><>::
+main_scene.tscn::PackedScene::6654965250601409829::1709941485::0::1::::<><>::res://main_scene.gd<>uid://djpsxgtrf1kpv::::res://Player/BG.tscn
+world.tscn::PackedScene::5390968615728294244::1709941428::0::1::::<><>::uid://dolyikbikkjdv::::res://Player/Player.tscn
+::res://Background/::1709941480
+::res://Player/::1709941428
+BG.gd::GDScript::-1::1709940953::0::1::::<>ParallaxBackground<>::
+BG.tscn::PackedScene::7823061634533602875::1709941428::0::1::::<><>::uid://bmdiy3uck4pbm::::res://Sunny-land-files/Sunny-land-assets-files/PNG/environment/layers/back.png<>res://Player/BG.gd<>uid://ca54x6ysea620::::res://Sunny-land-files/Sunny-land-assets-files/PNG/environment/layers/middle.png<>uid://cqipdpcos2mvo::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/plant-house.png<>uid://chw1ap4uh02ph::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/rock-2.png<>uid://dxppkqh1jnvt5::::res://Sunny Land houses/Sunny Land Trees Props Pack/Props PNG/tree-house.png
+Player.gd::GDScript::-1::1709940347::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::8166086038639604559::1709941428::0::1::::<><>::uid://b8785q545mo3l::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/crouch/player-crouch-1.png<>uid://cig0u3xogo10h::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-1.png<>res://Player/Player.gd<>uid://brjctk6xjgsgt::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/crouch/player-crouch-2.png<>uid://btdvb1b5bbpnr::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-2.png<>uid://dkk0ghojesq80::::res://Sunny-land-files/Sunny-land-assets-files/PNG/spritesheets/player-hurt.png<>uid://dnqdo4gkdmyte::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-3.png<>uid://ce3li46886m1a::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-4.png<>uid://qmpx1ixk5rf1::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/jump/player-jump-1.png<>uid://d21lbqfrjjl2e::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/jump/player-jump-2.png<>uid://t8l4la3kkean::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-1.png<>uid://bub21s8jlncpm::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-2.png<>uid://dp6r1f8407x3c::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-3.png<>uid://b0bdxn2mtmtrr::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-4.png<>uid://b7wk2cvk8l5wo::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-5.png<>uid://cxr6jlu0neavp::::res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-6.png
 ::res://Sunny Land houses/::1709937956
 ::res://Sunny Land houses/Sunny Land Trees Props Pack/::1709937956
 ::res://Sunny Land houses/Sunny Land Trees Props Pack/previews/::1709937957

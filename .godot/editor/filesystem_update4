@@ -2,3 +2,8 @@ res://world.tscn
 res://Player/Player.tscn
 res://main_scene.tscn
 res://Player/Player.gd
+res://Player/BG.tscn
+res://Player/BG.gd
+res://Background/BG.tscn
+res://Frog.tscn
+res://Frog.gd
